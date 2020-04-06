@@ -1,0 +1,15 @@
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\bin\Debug\netstandard2.0\MobRISv2.deps.json
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\bin\Debug\netstandard2.0\MobRISv2.dll
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\bin\Debug\netstandard2.0\ref\MobRISv2.dll
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\bin\Debug\netstandard2.0\MobRISv2.pdb
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.csprojAssemblyReference.cache
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyContentPage.xaml.g.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.csproj.CoreCompileInputs.cache
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.AssemblyInfoInputs.cache
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.AssemblyInfo.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.dll
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\ref\MobRISv2.dll
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.pdb
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyNavigationPage.xaml.g.cs
