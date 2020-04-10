@@ -7,9 +7,10 @@
              x:Class="MobRISv2.Views.MyContentPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="My Content Page!" FontSize="30"
+            <Label Text="My Content Page" FontSize="30"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Go Back" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

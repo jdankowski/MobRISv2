@@ -10,19 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace MobRISv2.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MyNavigationPage : ContentPage
+    public partial class MyMasterDetailPageDetail : ContentPage
     {
-        public MyNavigationPage()
+        public MyMasterDetailPageDetail()
         {
             InitializeComponent();
-        }
-
-        private void ToolbarItem_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MyContentPage());
-            //Navigation.PushModalAsync(new MyContentPage());
-
-            
         }
     }
 }

@@ -29,3 +29,6 @@ C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRIS
 C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\ref\MobRISv2.dll
 C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\MobRISv2.pdb
 C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyTabbedPage.xaml.g.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyMasterDetailPage.xaml.g.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyMasterDetailPageDetail.xaml.g.cs
+C:\Users\jdankowski\source\repos\MobRISv2\MobRISv2-master\MobRISv2-master\MobRISv2\MobRISv2\obj\Debug\netstandard2.0\Views\MyMasterDetailPageMaster.xaml.g.cs

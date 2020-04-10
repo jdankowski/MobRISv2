@@ -11,7 +11,9 @@ namespace MobRISv2
         {
             InitializeComponent();
 
-            //MainPage = new NavigationPage(new MyNavigationPage());
+            MainPage = new NavigationPage(new MyNavigationPage());
+                     // %% Zmiana w MyNavigationPage.xaml.cs (Navigation Page widoczne na starcie %%
+
             //MainPage = new NavigationPage(new MyNavigationPage2()) { BarBackgroundColor = Color.GreenYellow, BarTextColor = Color.Red };
             //MainPage = new TabbedPage();
 
@@ -23,11 +25,22 @@ namespace MobRISv2
 
             //MainPage = new MyCarouselPage();
 
-            CarouselPage carouselPage = new CarouselPage();
-            carouselPage.Children.Add(new MyContentPage());
-            carouselPage.Children.Add(new MyContentPage2());
+            //CarouselPage carouselPage = new CarouselPage();
+            //carouselPage.Children.Add(new MyContentPage());
+            //carouselPage.Children.Add(new MyContentPage2());
 
-            MainPage = carouselPage;
+            //MainPage = carouselPage;
+
+            //MainPage = new MyMasterDetailPage();
+
+            //MainPage = new MyMasterDetailPage2();
+
+            //carouselPage.Title = "Carousel Page";
+
+            //MasterDetailPage masterDetailPage = new MasterDetailPage();
+            //masterDetailPage.Master = new MyContentPage() { Title = "Title Content Page" };
+            //masterDetailPage.Detail = new NavigationPage(carouselPage);
+            //MainPage = masterDetailPage;
 
 
         }
