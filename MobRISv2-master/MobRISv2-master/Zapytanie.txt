@@ -1,0 +1,24 @@
+Pierwsze zapytanie które łączy `exam` `patient` z bazy RISa
+oraz `pacs_study` z bazy PACS
+tutaj wyciągam po numerze badania stuinsuid badania:
+
+SELECT `alterris_com`.`exam`.`ID`, `alterris_com`.`exam`.`PatID`, `alterris_com`.`exam`.`ExtID`, `alterris_com`.`patient`.`NationalID` AS PESEL,`alterris_com`.`patient`.`LastName`,`alterris_com`.`patient`.`FirstName`, `APACS3`.`pacs_study`.`stuinsuid`, `APACS3`.`pacs_patient`.`idpatient` AS PACSpatient
+
+FROM `alterris_com`.`patient` 
+LEFT JOIN `alterris_com`.`exam` ON `alterris_com`.`exam`.`PatID`= `alterris_com`.`patient`.`ID`
+LEFT JOIN `APACS3`.`pacs_study` ON `APACS3`.`pacs_study`.`accnum` = `alterris_com`.`exam`.`ExtID` LEFT JOIN `APACS3`.`pacs_patient`
+ON `APACS3`.`pacs_patient`.`idpatient` = `APACS3`.`pacs_study`.`idpatient`
+
+WHERE `alterris_com`.`exam`.`ExtID` = '20/RTG/2019'; 
+
+
+
+Drugie zapytanie - tylko na bazie PACS - jest tutaj tez numer badania jest nazwisko pacjenta i jest ścieżka do IMG
+
+SELECT pat.`patnam` AS NAZWISKOpacjenta, pat.`idpatient` AS IDpacjenta, img.`filename` AS SCIEZKAimg, stu.`stuinsuid` AS Stuinsuid,
+img.`filename` AS SCIEZKAimg, stu.`accnum` AS NumerBadania
+FROM pacs_study stu
+LEFT JOIN pacs_patient pat ON stu.idpatient = pat.idpatient
+INNER JOIN pacs_series ser ON stu.idstudy = ser.idstudy
+INNER JOIN pacs_image img ON ser.idseries = img.idseries
+WHERE pat.`patnam` = 'DANKOWSKI'
